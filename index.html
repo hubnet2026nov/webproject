@@ -1,0 +1,147 @@
+<html>
+ <head>
+   <title>Home</title>
+   <link rel="shortcut icon" href="img7.jpg" type="image/x-icon">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">  
+   <style>
+     *{
+      margin:0;
+      padding:0;
+      }
+     body{
+	background-color:lightgreen;
+	
+	 }
+     #menu{
+	height:60px;
+	border:3px outset white;
+	background-color:black;
+	  }
+     #menu h1{
+	color:white;
+	letter-spacing:3px;
+	font-size:40px;
+	font-weight:bold;
+	margin-left:30px;
+	line-height:60px;
+	display:inline-block;
+	}
+     nav{
+	display:inline-block;
+	margin-left:100px;
+	}
+     nav a{
+	line-height:60px;
+	color:white;
+	text-decoration:none;
+	margin-left:50px;
+	font-weight:bold;
+	font-size:20px;
+	}
+    nav a:hover{
+	color:lightgreen;
+	}
+   h2{
+     margin-bottom:10px;
+     color:red;
+     }
+   #pic1{
+	height:300px;
+	width:300px;
+	border 3px inset;
+	border-radius:50%;
+	}
+     .fa-youtube{
+	color:red;
+	font-size:20px;
+ 		}
+  @keyframes ani {
+	0%{
+		background-color:black;
+	}
+	25%{
+		background-color: white;
+	}
+	50%{
+		background-color: lightgreen;
+	}
+	75%{
+		background-color: greenyellow;
+	}
+	100%{
+		background-color: whitesmoke;
+	}
+  }
+  #af{
+	position: absolute;
+	width: 400px;
+	height: 530px;
+	border: 3px inset;
+	border-radius: 30px;
+	top:100px;
+	left:500px;
+	background-color: white;
+	box-shadow: 5px 5px 5px gold;
+  }
+   form h1{
+	text-align: center;
+	text-decoration: underline;
+   }
+   form{
+	padding-left: 60px;
+   }
+ </style>
+ </head>
+ <body>
+  <div id="menu">
+    <h1>Hubnet</h1>
+    <nav>
+	<a href="">Home</a>
+	<a href="">About</a>
+	<a href="">Contact</a>
+	<a href="">Services</a>
+	<a href="">Login</a>
+    </nav>
+  </div>
+  <marquee behavior="alternate"><h2>Welcome to Hubnet</h2></marquee>
+  <img src="img8.jpg" id="pic1">
+  <p>
+	
+  </p>
+  <div id="smi">
+	<i class="fa-brands fa-instagram"></i>
+	<a href="https://www.youtube.com/@hubneteducation"><i class="fa-brands fa-youtube"></i></a>
+  </div>
+  <div id="af">
+	 <form action="" method="post">
+		<h1>Admission Form</h1>
+		<label for="">Name</label><br>
+		<input type="text" name="" id=""><br><br>
+		<label for="">Email</label><br>
+		<input type="email" name="" id=""><br><br>
+		<label for="">DOA</label><br>
+		<input type="date" name="" id=""><br><br>
+		<label for="">Phone</label><br>
+		<input type="tel" name="" id=""><br><br>
+		<label for="">Course</label><br>
+		<select name="" id="">
+			<option value="DCA">DCA</option>
+			<option value="ADCA">ADCA</option>
+			<option value="Tally">Tally</option>
+			<option value="CCNA">CCNA</option>
+		</select><br><br>
+		<label for="">Address</label><br>
+		<textarea name="" id=""></textarea><br><br>
+		<fieldset>
+		<legend>Select Gender</legend>
+		<input type="radio" name="gen" id="">Male 
+		<input type="radio" name="gen" id="">Female
+		</fieldset><br>
+		<input type="checkbox" name="" id=""> Accept all the terms and condition <br><br>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	 </form>
+  </div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/YtUDf01ZMUA?si=o2j-cZYBZw1uSEL6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ </body>
+</html> 
